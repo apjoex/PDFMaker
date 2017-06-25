@@ -12,6 +12,7 @@
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
        android:gravity="center"
+       android:id="@+id/text"
        android:text="This is a demo Android application to create PDF files."
        android:layout_margin="40dp"/>
 
@@ -19,9 +20,6 @@
        android:layout_width="150dp"
        android:layout_height="wrap_content"
        android:text="MAKE PDF"
-       android:background="#fff"
-       style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
        android:id="@+id/proceed_btn"/>
-
 
 </LinearLayout>

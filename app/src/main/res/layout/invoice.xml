@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="1200px"
+        android:layout_height="30px"
+        android:layout_margin="20px"
+        android:textSize="18px"
+        android:gravity="center"
+        android:background="@android:color/darker_gray"
+        android:text="Invoice"
+        android:textStyle="bold"
+        android:id="@+id/header" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="400px"
+        android:textSize="18px"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/header"
+        android:layout_below="@+id/header"
+        android:layout_marginTop="24px"
+        android:layout_marginLeft="30px"
+        android:textStyle="bold"
+        android:text="Spectre Games\n632 E Grand Hwy\nClermont, FL 34711\n\NPhone: (352) 874-2711" />
+
+    <LinearLayout
+        android:layout_width="400px"
+        android:layout_height="150px"
+        android:layout_alignEnd="@+id/header"
+        android:layout_alignTop="@+id/textView2"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30px"
+            android:weightSum="2"
+            android:background="#eee"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Customer's Name"
+                android:textSize="18px"
+                android:gravity="center_vertical"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="18px"
+                android:text="AJ Rogers"
+                android:gravity="center_vertical|right" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30px"
+            android:weightSum="2"
+            android:background="#fff"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Phone Number"
+                android:textSize="18px"
+                android:gravity="center_vertical"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="18px"
+                android:text="AJ Rogers"
+                android:gravity="center_vertical|right" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30px"
+            android:weightSum="2"
+            android:background="#eee"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Invoice #"
+                android:textSize="18px"
+                android:gravity="center_vertical"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="18px"
+                android:text="AJ Rogers"
+                android:gravity="center_vertical|right" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30px"
+            android:weightSum="2"
+            android:background="#fff"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Date"
+                android:textSize="18px"
+                android:gravity="center_vertical"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="18px"
+                android:text="AJ Rogers"
+                android:gravity="center_vertical|right" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30px"
+            android:weightSum="2"
+            android:background="#eee"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Amount Due"
+                android:textSize="18px"
+                android:gravity="center_vertical"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="18px"
+                android:text="AJ Rogers"
+                android:gravity="center_vertical|right" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
